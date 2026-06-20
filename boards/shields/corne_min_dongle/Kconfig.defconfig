@@ -2,7 +2,7 @@ if SHIELD_CORNE_MIN_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
-    default "Corne Min"
+    default "S1d3w1nd3r-Min"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
