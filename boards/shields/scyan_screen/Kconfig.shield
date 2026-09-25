@@ -1,0 +1,11 @@
+# Copyright (c) 2026 Scyan ZMK Studio
+# SPDX-License-Identifier: MIT
+
+config SHIELD_SCYAN_SCREEN
+    def_bool $(shields_list_contains,scyan_screen)
+
+config SHIELD_SCYAN_SCREEN_1
+    def_bool $(shields_list_contains,scyan_screen_1)
+
+config SHIELD_SCYAN_SCREEN_2
+    def_bool $(shields_list_contains,scyan_screen_2)

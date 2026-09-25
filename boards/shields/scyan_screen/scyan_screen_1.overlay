@@ -1,0 +1,12 @@
+/*
+ * Copyright (c) 2026 Scyan ZMK Studio
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "scyan_layouts.dtsi"
+
+/ {
+    chosen {
+        scyan,display-layout = &display_1_active;
+    };
+};
